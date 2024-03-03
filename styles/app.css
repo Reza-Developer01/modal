@@ -1,0 +1,35 @@
+/* ==== Variables ==== */
+:root {
+    --primary-color: #7F56D9;
+    --black-color: #101828;
+    --white-color: #FFFFFF;
+    --gray-color: #475467;
+}
+
+
+/* ==== Configuration ==== */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* 62.5% => 10px */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "IranYekanX-Regular";
+    font-size: 1.6rem;
+    line-height: 1.6;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ==== Start ==== */
+/* ==== Finish ==== */
