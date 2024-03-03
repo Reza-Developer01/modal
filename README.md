@@ -2,7 +2,7 @@
 
 **😃for lightboxes, user notifications, or completely custom content.**
 
-- ✨ [Demo Project](https://reza-developer01.github.io/tabs/)
+- ✨ [Demo Project](https://reza-developer01.github.io/modal/)
 
 - 👨‍💻 Developed by Reza Rashvand
 
