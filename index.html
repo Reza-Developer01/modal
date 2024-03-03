@@ -20,7 +20,48 @@
 <body>
 
 
+    <!-- ==== Icon Pack ==== -->
+    <svg id="svg">
+        <symbol id="x-mark" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+        </symbol>
+        <symbol id="check-badge" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
+        </symbol>
+    </svg>
+
+
     <!-- ==== Start ==== -->
+    <section class="modal">
+        <div class="container">
+            <button class="modal__btn">باز شدن مدال</button>
+
+            <div class="modal-box">
+                <div class="modal-box__top">
+                    <svg>
+                        <use href="#x-mark"></use>
+                    </svg>
+
+                    <svg>
+                        <use href="#check-badge"></use>
+                    </svg>
+                </div>
+                <div class="modal-box__data">
+                    <h1 class="modal-box__title">پست وبلاگ منتشر شد</h1>
+                    <p class="modal-box__text">
+                        این پست وبلاگ منتشر شده است. اعضای تیم می توانند این پست را ویرایش کنند.
+                    </p>
+                </div>
+                <div class="modal-box__btns">
+                    <a href="#" class="modal-box__confirm">تایید</a>
+                    <a href="#" class="modal-box__cancel">انصراف</a>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- ==== Finish ==== -->
 
 
